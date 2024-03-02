@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
+    <title>Animales</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .card{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagenes/logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="animales.html">Animales</a> </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="juego.html">Minijuego</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.creativemobile.zc&pcampaignid=web_share" target="_blank">App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="formularios.html">Contacto</a>
+                        </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="text" placeholder="Search">
+                            <button class="btn btn-success" type="button">Search</button>
+                          </form>
+                    </div>
+                    </div>
+                </nav>
+    </header>
+
+    <main>
+        <section class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4" style="text-align: center;">Animales </h1>
+             <p class="lead" style="text-align: center;"><strong>Explora el mundo animal</strong></p>
+             <p class="lead" style="text-align: center;"> 
+                Conoce a los increíbles animales de nuestro zoológico <br> En nuestro zoológico, tenemos una gran variedad de animales de todo el mundo, desde majestuosos leones y tigres hasta adorables pandas y koalas. 
+                <br>Te invitamos a conocerlos a todos y aprender sobre sus increíbles características.</p>
+            </div>
+          </section>
+
+          <section class="container">
+            <h1 style="text-align: center;">Mamiferos</h1><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img mam/leon.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;"> Leones</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo">
+                            Ver más</button>
+                            <div id="demo" class="collapse">
+                            Es originario del África Subsahariana y de ciertas regiones de la India. Constituye el mayor depredador de la cadena trófica en su hábitat.<br> Aunque temidos por su fiereza, los leones también son admirados y representados en símbolos, relatos y esculturas.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img mam/tigre.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;"> Tigre</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo1">
+                                Ver más</button>
+                                <div id="demo1" class="collapse">
+                                    Es una especie en peligro de extinción, debido a la caza furtiva y la pérdida de su hábitat. Es un depredador carnívoro que caza principalmente ungulados, como ciervos, búfalos o jabalíes. Vive en bosques densos y sabanas, y es un animal solitario y territorial.
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img mam/oso.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;">Oso</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo2">Ver más</button>
+                            <div id="demo2" class="collapse">
+                                El oso es un mamífero omnívoro que pertenece a la familia Ursidae. Los osos se caracterizan por tener un cuerpo robusto y peludo, una cabeza grande y redonda, orejas pequeñas y redondeadas, un hocico largo y estrecho, y patas cortas y fuertes con cinco garras no retráctiles.
+                                <iframe width="375" height="550" src="https://www.youtube.com/embed/ELXWePppuh4?si=s9-GSiFIK63L_BmV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                           
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img mam/elefante.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;">Elefante</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo3">Ver más</button>
+                            <div id="demo3" class="collapse">
+                                Son una familia de mamíferos placentarios del orden proboscideos. Antiguamente se clasificaban, junto con otros mamíferos de piel gruesa, en el orden, ahora inválido, de los paquidermos. Existen hoy en día tres especies y diversas subespecies. Entre los géneros extintos de esta familia destacan los mamuts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img mam/cebra.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;">Cebra</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo4">Ver más</button>
+                            <div id="demo4" class="collapse">
+                                La cebra es un mamífero africano conocido por su característica más distintiva: sus rayas blancas sobre un fondo negro. Se reconocen tres especies de cebras: <br>
+                     Cebra común (Equus quagga)<br>
+                    Cebra de montaña (Equus zebra)<br>
+                    Cebra de Grevy (Equus grevyi)<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img mam/mono.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;">Mono</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo5">Ver más</button>
+                            <div id="demo5" class="collapse">
+                                Los monos, son primates que, por contar con características morfológicas similares a las del ser humano, reciben la calificación de antropoides.
+                                Estos mamíferos no solo comparten rasgos físicos con el Homo sapiens, sino que además pueden tener conductas y actitudes semejantes.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img mam/simio.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;">Simio</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo6">Ver más</button>
+                            <div id="demo6" class="collapse">
+                                Los simios comparten muchas características con los seres humanos. Aunque esto no es exclusivo de esta especie ni debería tomarse como algo especialmente positivo simplemente porque los haga parecidos a nosotros, algunos simios se reconocen en un espejo, comprenden gestos y expresiones de las personas e incluso crean y utilizan herramientas.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <section class="container">
+            <h1 style="text-align: center;">Aves</h1><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes av/loro.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;">Loro</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo7">Ver más</button>
+                            <div id="demo7" class="collapse">
+                                Los loros son una superfamilia del orden Psittaciformes, con un total de 369 especies. Los loros típicos son más numerosos y están más extendidos que las otras superfamilias de psitaciformes, las cacatúas y los escasos y confinados loros de Nueva Zelanda, ya que tienen representantes en América, África, Asia y Oceanía                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes av/guaca.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;">Guacamayo</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo8">Ver más</button>
+                            <div id="demo8" class="collapse">
+                                Los guacamayos son loros grandes que miden de 46 a 51 cm de largo y pesan de 285 a 287 en el maracaná grande y de 90 a 95 cm y 1.708 g en el guacamayo aliverde. Las alas de estos guacamayos son largas y estrechas, lo cual es típico de las especies de loros que viajan largas distancias para buscar alimento.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes av/tucan.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;">Tucan</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo9">Ver más</button>
+                            <div id="demo9" class="collapse">
+                                Los tucanes son una familia de aves piciformes muy amplia, ya que alberga seis géneros y cuarenta y dos especies diferentes. Se caracterizan por poseer un pico muy desarrollado y de vivos colores. Miden entre 18 y 65 cm, siendo el tucán toco el de mayor tamaño.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes av/flamenco.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;">Flamenco</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo10">Ver más</button>
+                            <div id="demo10" class="collapse">
+                                El flamenco común es una especie de ave phoenicopteriforme de la familia Phoenicopteridae que vive en los humedales de África, el sur de Europa y el sudoeste de Asia. Sus parientes más cercanos son el flamenco rojo y el flamenco chileno, que anteriormente se consideraba conespecífico del primero, pero en la actualidad se consideran especies separadas.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes av/aguila.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;">Aguila</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo11">Ver más</button>
+                            <div id="demo11" class="collapse">
+                                Águila es el nombre dado a las aves de presa, del orden de Accipitriformes, familia Accipitridae, subfamilia Buteoninae. Pertenecen a varios géneros, los cuales están sujetos a una reclasificación más adecuada puesto que los expertos no llegan a una opinión consensuada
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagenes av/buho2.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;">Buho</h1>
+                            <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo12">Ver más</button>
+                            <div id="demo12" class="collapse">
+                                Búho es el nombre común de aves de la familia Strigidae, del orden de los estrigiformes o aves rapaces nocturnas. Habitualmente designa especies que, a diferencia de las lechuzas, tienen plumas alzadas que parecen orejas y presentan una coloración amarilla o naranja en el iris. Debido a que sus ojos carecen de movilidad y solo pueden ver hacia delante.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <section class="container">
+            <br><h1 style="text-align: center;">Reptiles</h1><br>
+            <div class="row">
+            <div class="col-md-4">
+            <div class="card">
+                <img src="img rep/serpiente.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h1 class="card-title" style="text-align: center;">Serpiente</h1>
+                    <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo13">Ver más</button>
+                    <div id="demo13" class="collapse">
+                        Las serpientes son reptiles sin patas con cuerpos largos y cilíndricos. Su piel está cubierta de escamas y mudan regularmente. Se desplazan reptando por el suelo y algunas especies son venenosas. Se alimentan de una variedad de animales, desde pequeños insectos hasta grandes mamíferos.
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img rep/tortuga.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1 class="card-title" style="text-align: center;">Tortuga</h1>
+                        <button  type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo14">Ver más</button>
+                        <div id="demo14" class="collapse">
+                            Las tortugas son reptiles con un caparazón duro que protege su cuerpo. Hay tortugas terrestres, marinas y de agua dulce. Se caracterizan por su metabolismo lento y su larga vida útil. Algunas especies pueden vivir hasta 100 años.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img rep/cocodrilo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1 class="card-title" style="text-align: center;">Cocodrilo</h1>
+                        <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo15">Ver más</button>
+                        <div id="demo15" class="collapse">
+                            Los cocodrilos son reptiles grandes y carnívoros que viven en agua dulce y salada. Tienen un cuerpo largo y robusto, una cola poderosa y una boca grande con dientes afilados. Son excelentes nadadores y cazadores.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          </section>
+
+          <section class="container">
+            <br><h1 style="text-align: center;">Anfibios</h1><br>
+            <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenes anfi/rana.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1 class="card-title" style="text-align: center;">Rana</h1>
+                        <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo16">Ver más</button>
+                        <div id="demo16" class="collapse">
+                            Las ranas son anfibios que viven tanto en el agua como en la tierra. Tienen piel lisa y húmeda, patas largas y palmeadas y ojos grandes y saltones. Se reproducen en el agua y sus renacuajos pasan por una metamorfosis antes de convertirse en adultos.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenes anfi/sapo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1 class="card-title" style="text-align: center;">Sapo</h1>
+                        <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo17">Ver más</button>
+                        <div id="demo17" class="collapse">
+                            Los sapos son anfibios similares a las ranas, pero con piel más seca y verrugosa. Tienen patas más cortas y no tienen membranas entre los dedos. También se reproducen en el agua, pero sus renacuajos tienen un desarrollo más rápido.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagenes anfi/salamandra.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1 class="card-title" style="text-align: center;">salamandra</h1>
+                        <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo18">Ver más</button>
+                        <div id="demo18" class="collapse">
+                            Las salamandras son anfibios que viven en tierra firme. Tienen un cuerpo largo y delgado, con cuatro patas y una cola. Su piel es lisa y húmeda y algunas especies tienen colores llamativos. Se reproducen en el agua, pero sus larvas pueden completar su desarrollo en tierra.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          </section>
+
+          <section class="container">
+            <br><h1>Peces</h1><br>
+            <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img pe/pezcol.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1 class="card-title" style="text-align: center;">Peces de Colores</h1>
+                        <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo19">Ver más</button>
+                        <div id="demo19" class="collapse">
+                            Los peces de color son una gran variedad de peces de agua dulce y salada que se caracterizan por sus colores vibrantes. Hay miles de especies de peces de color, con diferentes formas, tamaños y comportamientos. Algunos son populares como peces de acuario.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card"> 
+                    <img src="img pe/tiburon.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1 class="card-title" style="text-align: center;">Tiburon</h1>
+                        <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo20">Ver más</button>
+                        <div id="demo20" class="collapse">
+                            Los tiburones son peces cartilaginosos que viven en el mar. Tienen un cuerpo alargado y fusiforme, con una boca grande y dientes afilados. Son depredadores ápice en la cadena alimentaria marina.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img pe/Raya.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1 class="card-title" style="text-align: center;">Raya</h1>
+                        <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo21">Ver más</button>
+                        <div id="demo21" class="collapse">
+                            Las rayas son peces cartilaginosos que viven en el mar. Tienen un cuerpo aplanado y discoidal, con una cola larga y delgada. Algunas especies tienen aguijones venenosos en la cola.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img pe/caballitomar.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1 class="card-title" style="text-align: center;">Caballito de Mar</h1>
+                        <button type="button" class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#demo22">Ver más</button>
+                        <div id="demo22" class="collapse">
+                            Los caballitos de mar son peces óseos que viven en el mar. Tienen un cuerpo pequeño y alargado, con una cabeza en forma de caballo y una cola prensil. Se desplazan verticalmente en el agua y se camuflan entre las algas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          </section>
+    </main>
+    
+</body>
+</html>
